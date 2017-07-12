@@ -45,7 +45,7 @@ public class KafkaIntegrationTest {
     private static final String INPUT_TOPIC = "inputTopic";
     private static final String OUTPUT_TOPIC = "outputTopic";
     private static final String PROCESSOR_NAME = "statisticMachine";
-    private static final String STORE_NAME = "mapStore";
+    private static final String STORE_NAME = OUTPUT_TOPIC;
     private static final int PARTITION_COUNT = 1;
     
     private static int testNumber = 0;
